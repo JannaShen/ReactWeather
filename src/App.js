@@ -85,6 +85,7 @@ function App() {
         </div>
       </div>
       <div id="display"></div>
+      <a href="https://github.com/JannaShen/ReactWeather">Open source Code Here</a>
     </div>
   );
   

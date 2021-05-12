@@ -12,9 +12,9 @@ function App() {
       icon: "https://ssl.gstatic.com/onebox/weather/64/sunny.png",
       description: "Cloudy"
   });
-  const [loaded, setLoaded] = useState(false);
+ 
   function displayWeather(response) {
-    setLoaded(true);
+   
     setWeather({
       temperature: response.data.main.temp,
       wind: response.data.wind.speed,
